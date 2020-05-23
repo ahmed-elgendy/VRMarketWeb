@@ -1,0 +1,139 @@
+
+.navbar{
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #005b7c;
+  color: #fff;
+  padding: 1% 0;
+  font-size: 1.2em;
+  border:0;
+}
+
+
+.test img {
+    width: 100%;
+}
+.navbar-brand{
+  min-height: 55px;
+  padding: 10px 15px 5px;
+
+}
+#navbarNav{
+    margin-left: 40%;
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show,
+ .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+  }
+.nav-link:hover{
+    color: aqua !important;
+}
+  .navbar-light .navbar-nav .nav-link {
+    color: #999;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 30%;
+    margin-left:  0px;
+
+}
+/******** Giza*******************/
+/******** *******************/
+.G{
+  background: #17a2b8;;
+  margin-bottom:10px;
+  border-radius: 5px;
+  padding-right: 0px;
+      margin-top: 20px;
+}
+.G img{
+  width: 100%;
+  height: 310px;
+}
+.G h5{
+
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+  color: #fff;
+}
+.G small{
+
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+  color: #ddd;
+}
+
+.col, .col-1, .col-10, .col-11,
+ .col-12, .col-2, .col-3, .col-4, 
+ .col-5, .col-6, .col-7, .col-8,
+  .col-9, .col-auto, .col-lg, .col-lg-1,
+   .col-lg-10, .col-lg-11, .col-lg-12, 
+   .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,
+    .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, 
+    .col-lg-auto, .col-md, .col-md-1, .col-md-10, 
+    .col-md-11, .col-md-12, .col-md-2, .col-md-3, 
+    .col-md-4, .col-md-5, .col-md-6, .col-md-7, 
+    .col-md-8, .col-md-9, .col-md-auto, .col-sm, 
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12,
+     .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, 
+     .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+     .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, 
+     .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, 
+     .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, 
+     .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 10px;
+}
+.G p{
+   color: #555;
+   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.G .btn{
+     background: #0c7384;
+    border: 1px solid #0c7384;
+    margin-bottom: 5px;
+    margin-left:113px;
+    width: 45%;
+    color:#fff;
+    border-radius:#0c7384;
+}
+.G .btn:hover{
+     background: #ffffffde;
+    border: 1px solid #ffffffde;
+    margin-bottom: 5px;
+    margin-left:113px;
+    width: 45%;
+    color:#0c7384;
+    border-radius: #0c7384;
+}
+
+
+
+
+.G h1{
+     margin-left: 70%;
+    margin-bottom: 0px;
+    background: #ffc107b5;
+    color:#fff;
+    text-align:center;
+  border-radius: 0px 0px  0px 20px;
+}
+@media(max-width:768px){
+.G{
+  padding: 0;
+  width: 96%;
+}
+
+.G{
+    padding: 0;
+   width: 96%;
+}
+
+}

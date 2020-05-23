@@ -1,0 +1,438 @@
+/*start main rulez*/
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.cont{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 240px;
+}
+
+
+.form-input {
+ padding: 12px;
+ width: 600px;
+}
+
+
+
+/*end main rulez*/
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+/*start login form*/
+
+
+
+.login 
+{
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login input 
+{
+    margin-bottom: 10px;
+}
+
+.login .form-control 
+{
+    background-color:azure;
+}
+
+.login .btn{
+    background-color:lightskyblue;
+    border-color:lightskyblue;
+}
+
+
+
+
+/*end login form*/
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+/*start BootStrap Edits*/
+
+
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: white;
+    border-color: white;  
+}
+
+.nav > li > a,
+.navbar-brand {
+    padding: 15px 9.5px;
+    
+}
+
+.navbar-brand {
+    font-size: 20px;
+    
+}
+
+.navbar-inverse .navbar-brand {
+    color: darkgray;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: lightskyblue;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    
+    color: darkgray;
+}
+
+
+.navbar-inverse .navbar-toggle {
+    background-color: #222;
+}
+
+.navbar-inverse .navbar-toggle li{
+    background-color: #222;
+}
+
+
+.navbar-inverse .navbar-nav> .open>a,
+.navbar-inverse .navbar-nav> .open>a:focus, 
+.navbar-inverse .navbar-nav> .open>a:hover,
+.dropdown-menu {
+    background-color:lightskyblue;
+    
+}
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse 
+.navbar-nav > li > a:hover
+{
+    background-color:lightskyblue;
+    color:white;
+    
+}
+
+
+.dropdown-menu {
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+    
+  
+}
+   
+
+.dropdown-menu > li >a {
+    color: #FFF;
+    padding: 7px 12px;
+    background-color: lightskyblue;
+    -webkit-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
+    
+}
+
+.dropdown-menu > li >a:focus,
+.dropdown-menu > li >a:hover {
+    color: white;
+    background-color:lightskyblue;
+    padding-left: 25px;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: white;
+    background-color: lightskyblue;
+}
+
+/*end boot strap edits*/
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+/*Start dashboard edits*/
+
+
+.Dashboard{
+    color: grey;
+}
+
+
+
+
+.home-stats .stat { 
+    background-color: lightskyblue;
+    border: 1px solid #FFF;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+}
+
+.manage-members .imgg{
+    width: 100px;
+    height: 100px;
+}
+
+
+.home-stats .stat a {
+    color: white;
+    font-size: 32px;
+}
+
+.home-stats .stat a:hover {
+    text-decoration:none;
+}
+
+
+.home-stats .stat span{
+    display: block;
+    font-size: 22px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.label-info {
+    background-color:  rgba(51, 51, 51, 1)
+}
+
+
+/*End dashboard edits*/
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+/*start bootstrap edits*/
+
+
+
+h1 {
+    font-size: 30px;
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+.form-horizontal {
+     padding-left: 180px;
+}
+
+input .btn .btn-primary .btn-lg>.btn {
+    padding-bottom: 100px;
+}
+
+
+.main-table {
+    -webkit-box-shadow : 0 3px 10px #CCC;
+    -moz-box-shadow : 0 3px 10px #CCC;
+    box-shadow : 0.3px 10px #CCC;  
+
+}
+
+.main-table .btn {
+    border-radius: 0;
+}
+
+.main-table td{
+    background-color: #FFF;
+    vertical-align: middle !important;
+}
+
+.main-table .btn{
+    padding: 2px 15px;
+    
+}
+
+.main-table tr:first-child td{
+    background-color: #333;
+    border-radius: 15%;
+    color: #FFF;
+}
+
+.activate {
+    margin-left: 5px;
+}
+
+
+
+.panel-primary{
+    border-color: #333;
+    border-radius: 0;
+    margin: 20px;
+}
+
+.panel-primary > .panel-heading{
+    background-color: #333;
+    color: white;
+    border-radius: 0;
+    border-color: #333;
+    font-size: 17px;
+   
+}
+
+
+.input{
+    padding-top:40px;
+    height: 82px;
+    border-radius: 0;
+    
+}
+
+.mem-add{
+    margin-top:45px;
+    
+}
+
+
+.btn-primary{
+    
+    background-color: steelblue;
+    border-color: steelblue;
+    border-radius: 0;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+.add {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="password"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="password"],
+
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background-color: lightskyblue;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+/*End Member page*/
+
+
+

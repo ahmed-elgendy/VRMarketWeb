@@ -1,0 +1,85 @@
+
+.navbar{
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #005b7c;
+  color: #fff;
+  padding: 1% 0;
+  font-size: 1.2em;
+  border:0;
+}
+
+
+.test img {
+    width: 100%;
+}
+.navbar-brand{
+  min-height: 55px;
+  padding: 10px 15px 5px;
+
+}
+#navbarNav{
+    margin-left: 40%;
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show,
+ .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+  }
+.nav-link:hover{
+    color: aqua !important;
+}
+  .navbar-light .navbar-nav .nav-link {
+    color: #999;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 30%;
+    margin-left:  0px;
+
+}
+/******** Giza*******************/
+.G{
+  background: #66e6f0;;
+  margin-bottom:10px;
+  border-radius: 5px;
+  padding-right: 0px;
+}
+.G img{
+  width: 100%;
+  height: 330px;
+}
+.G h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.G p{
+   color: #555;
+   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.G .btn{
+     background: #1f70c1;
+    border: 1px solid #666;
+    margin-bottom: 5px;
+    margin-left: 113px;
+    width: 35%;
+    color:#fff;
+    border-radius: #29dec5;
+}
+
+@media(max-width:768px){
+.G{
+  padding: 0;
+  width: 96%;
+}
+
+.G{
+    padding: 0;
+  width: 96%;
+}
+
+}
